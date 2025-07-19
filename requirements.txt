@@ -1,10 +1,5 @@
 streamlit==1.33.0
-pandas==2.1.4
-numpy==1.24.4
-scikit-learn==1.3.2
-tensorflow-cpu==2.12.0
-matplotlib==3.7.2
-seaborn==0.12.2
-shap==0.41.0
-streamlit-lottie==0.0.5
-
+pandas==2.2.2  # Compatible with Python 3.13 and numpy 1.26+
+numpy==1.26.4  # Aligns with pandas requirement
+scikit-learn==1.5.1  # Compatible with Python 3.13
+tensorflow==2.17.0  # Latest version with Python 3.11 support, may require pre-release or manual adjustment
